@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    background-color: #20B2AA;
+    margin: 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'as ma' 'as ma';
+}
+
+aside {
+    background-color: #20B2AA;
+    grid-area: as;
+    border-right: 5px black solid;
+    padding: 0px 50px;
+}
+
+main {
+    background-color: #EDEDE6;
+    grid-area: ma;
+    height: 100vh;
+}
+
+.logo {
+    height: 200px;
+    margin-top: 0;
+    align-content: center;
+}
