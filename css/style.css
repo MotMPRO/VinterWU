@@ -65,6 +65,7 @@ nav{
 }
 
 .logo {
+    display: block;
     width: 210px;
     margin-bottom: 30px;
    
