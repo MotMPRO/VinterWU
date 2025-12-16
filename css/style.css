@@ -1,6 +1,6 @@
 body {
     display: grid;
-   margin: 0;
+    margin: 0;
 }
 
 #container {
@@ -19,12 +19,12 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
- 
+
 }
 
 main {
     grid-area: ma;
-    background-image: url("/img/bg.png"); 
+    background-image: url("/img/bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,12 +33,12 @@ main {
     align-items: center;
 }
 
-nav{
+nav {
     width: 100%;
     margin-top: 10px;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -47,24 +47,24 @@ nav{
     padding-left: 0;
 }
 
-.nav-list a{
+.nav-list a {
     display: block;
     width: 100%;
     color: white;
     padding: 10px;
-    background: rgba(0,0,0,0.15);
+    background: rgba(0, 0, 0, 0.15);
     text-decoration: none;
     border-radius: 15px;
 }
 
-.nav-list a:hover{
+.nav-list a:hover {
 
-    background: rgba(0,0,0,0.25);
+    background: rgba(0, 0, 0, 0.25);
 }
 
-.trade-mark{
+.trade-mark {
     text-align: center;
-    color:white;
+    color: white;
     margin-top: 49vh;
 }
 
@@ -72,28 +72,68 @@ nav{
     display: block;
     width: 210px;
     margin-bottom: 30px;
-   
-}
-.medicine{
-    height: 300px;
-    width:  900px;
- margin-top: 40px;
+
 }
 
+.medicine {
+    height: 300px;
+    width: 900px;
+    margin-top: 40px;
+}
+
+.contact-card {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    backdrop-filter: blur(5px);
+}
+
+.contact-card h1 {
+    color: #20B2AA;
+    font-family: 'Georgia', serif;
+    margin-top: 0;
+    font-size: 1.5cm;
+}
+
+.contact-card p {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 0.6cm;
+}
+
+.contact-details {
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.45cm;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-card hr {
+    height: 1px;
+    background: #20B2AA;
+    margin: 30px 0;
+    opacity: 0.5;
+}
 
 .about-card {
     background-color: rgba(255, 255, 255, 0.85);
     padding: 50px;
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     text-align: left;
-    backdrop-filter: blur(5px); 
+    backdrop-filter: blur(5px);
 }
 
 .about-card h1 {
-    color: #20B2AA; 
-    font-family: 'Georgia', serif; 
+    color: #20B2AA;
+    font-family: 'Georgia', serif;
     margin-top: 0;
     font-size: 1.5cm;
 }
@@ -110,13 +150,13 @@ nav{
     margin: 30px 0;
     opacity: 0.5;
 }
-.moto{
+
+.moto {
     font-weight: bold;
     color: #555;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 0.9rem;
+    font-size: 0.45cm;
     text-align: center;
     margin-top: 30px;
 }
-
