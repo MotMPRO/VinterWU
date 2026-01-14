@@ -160,3 +160,64 @@ nav {
     text-align: center;
     margin-top: 30px;
 }
+
+
+.product-card {
+    width: 20vw;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    backdrop-filter: blur(5px);
+    align-items: center;
+}
+
+.product-card h1 {
+    color: #20B2AA;
+    font-family: 'Georgia', serif;
+    margin-top: 0;
+    font-size: 1cm;
+    text-align: center;
+}
+
+.product-card p {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 0.3cm;
+
+}
+
+.product {
+    height: 250px;
+    margin-left: 60px;
+}
+
+.product2 {
+    height: 250px;
+
+    margin-left: 50px;
+}
+
+.product3 {
+    height: 250px;
+    margin-left: 50px;
+}
+
+.product-button a {
+    margin-top: 40px;
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    padding: 10px;
+    background: rgba(31, 178, 171, 0.714);
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 40px;
+}
+.product-button a:hover{
+ background: rgba(31, 178, 171, 0.507);
+}
