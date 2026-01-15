@@ -165,7 +165,7 @@ nav {
 .product-card {
     width: 20vw;
     height: 60vh;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: #ffffffd9;
     padding: 30px;
     margin: 15px;
     border-radius: 10px;
@@ -206,6 +206,10 @@ nav {
     margin-left: 50px;
 }
 
+.product-button{
+width: 100%;
+}
+
 .product-button a {
     margin-top: 40px;
     display: block;
@@ -216,7 +220,7 @@ nav {
     text-decoration: none;
     border-radius: 15px;
     text-align: center;
-    margin-right: 40px;
+    margin-right: 200px;
 }
 .product-button a:hover{
  background: rgba(31, 178, 171, 0.507);
